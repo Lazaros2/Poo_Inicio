@@ -4,7 +4,7 @@ package poo.newpackage;
 import java.util.Scanner;
 
 public class teste {
-	public static void main (String[] args){
+	public static void main (String[] args) {
     
     Scanner scan = new Scanner(System.in);
         
@@ -33,10 +33,10 @@ public class teste {
      
     //3- COMPOSIÇÃO DIRETAMENTE NA MAIN, usando as conexões entre objetos!
      
-    Tela tft = new Tela(50);
-    Processador snp= new Processador(100);
+   //  Tela tft = new Tela(50);
+   //  Processador snp= new Processador(100);
     
-    Celular moto=new Celular(100,200);
+   //  Celular moto=new Celular(100,200);
     
      
     }
