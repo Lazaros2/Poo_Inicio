@@ -1,10 +1,5 @@
 
 package poo.newpackage;
-
-/**
- *
- * @author lazar
- */
 public class Livro {
     String autor;
     String editora;
@@ -12,22 +7,22 @@ public class Livro {
     int paginas;
     
     
-    //vamos criar um construtor
+    
     public Livro(String autor,String editora,String tema,int paginas){
         
-        this.autor=autor; // SE DEFINIRMOS um atributo AQUI,ELE não pode ser alterado pelo set
+        this.autor=autor; 
         this.editora=editora;
         this.tema=tema;
         this.paginas=paginas;
     }
     
-    //SOBRECARGA:QUANDO TEMOS VÁRIOS CONSTRUTORES (⊙_⊙;)
+    //SOBRECARGA:v�rios CONSTRUTORES
     
     public Livro (){
         System.out.println("(☞ﾟヮﾟ)☞");
     }
     
-    // PARA RETORNAR
+
     public String getAutor (){
         return autor;   
     }
@@ -41,7 +36,6 @@ public class Livro {
         return paginas;    
     }
 
-    // PARA ALTERAR    
     public void setAutor (String autor){
         this.autor=autor;  
     }  

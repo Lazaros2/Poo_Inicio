@@ -38,33 +38,5 @@ public void setTela(Tela ips){
 public void setProcessador(Processador intel){
     this.intel=intel;
 }
-
-
-//private double tela;
-//private  String marca;
-
-
-//##############################ENCAPSULAMENTO########################################
-/*
-public void novocell(int n,double t,String m){
-  num=n;
-  tela=t;
-  marca=m;
-  
-  teste();
-}
-
- private void teste(){
-  if((2.0>tela)||(tela>7.0)||(num>99999999)){
-    num=000;
-    tela=000;
-    marca="Celular inválido!";
-}}
-
-   public void mostrar(){
-       System.out.println("Número:"+num+"\nTamanho da tela:"+tela+"\nMarca:"+marca);
-   }
-     
-  */
 } 
  

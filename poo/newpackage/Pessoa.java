@@ -16,9 +16,6 @@ public class Pessoa {
     }
     
     
-    
-    // métodos! de outras classes
-    
     void ligaCarro(){
         carrinho.ligar();        
     }

@@ -4,26 +4,31 @@ package poo.newpackage;
 public class Carro {
     //atributos
     
-    String tipo;
-    String cor;
-    String placa;
-    int Portas;
-    Livro conjurador; //objeto da classe livro como um atributo
-    int cambio;
+   private String tipo;
+   private String cor;
+   private String placa;
+   private int Portas;
+   private Status estadoCarro;
+   Livro livro2; //objeto da classe livro como um atributo
+    
 
     // Construtor
-    public Carro (String tipo,String cor,String placa,int Portas,Livro conjurador){
+    public Carro (String tipo,String cor,String placa,int Portas,Livro livro2){
         this.tipo=tipo;
         this.cor=cor;
         this.placa=placa;
         this.Portas=Portas;
-        this.conjurador=conjurador;
+        this.livro2=livro2;
+        this.estadoCarro=Status.LIGANDO;
+        
+        
         
     }
     
     // métodos!!!
     void ligar(){
         System.out.println("Carro ligado.");
+        
     }
     
     void desligar(){
@@ -40,19 +45,12 @@ public class Carro {
     
     // gets e sets
     
-    public void setCambio(int cambio){
-        this.cambio=cambio;
+    
+    public void setLiv(Livro livro3){
+        this.livro2=livro3;
     }
     
-    public int getCambio(){
-        return cambio;
-    }
-    
-    public void setCon(Livro conjurador){
-        this.conjurador=conjurador;
-    }
-    
-    public Livro getCon(){
+    public Livro getLiv(){
     return conjurador;
 }
     
